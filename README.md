@@ -1,6 +1,6 @@
 # File Manager
 
-<!-- [![Build Status](https://travis-ci.com/ivcmartello/registrobrepp.svg?branch=master)](https://travis-ci.com/ivcmartello/file_manager.svg?token=YxevxaQeJibtDDNh8ij8&branch=main) -->
+[![Build Status](https://app.travis-ci.com/ivcmartello/file_manager.svg?branch=main)](https://app.travis-ci.com/ivcmartello/file_manager)
 
 This project is for test and implement an application that can store files and create folders.
 
