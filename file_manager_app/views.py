@@ -32,7 +32,7 @@ class StructureBaseView(ABC, APIView):
     """Structure base view"""
 
     def get(self, request, pk=0):  # pylint: disable=invalid-name
-        """Base get method"""
+        """Get structure folder/files"""
         structure_list = Structure.objects.filter(parent_id=pk)
 
         try:
@@ -52,7 +52,7 @@ class StructureBaseView(ABC, APIView):
         raise NotImplementedError()
 
     def post(self, request, pk=0):  # pylint: disable=invalid-name
-        """Base post method"""
+        """Create folder and upload file"""
         serializer_context = {"parent_id": pk}
 
         try:
@@ -96,6 +96,8 @@ class StructureAPIView(StructureBaseView):
 
 class StructureTemplateView(StructureBaseView):
     """Structure template view"""
+
+    swagger_schema = None
 
     renderer_classes = [
         TemplateHTMLRenderer,

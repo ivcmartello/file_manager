@@ -130,6 +130,10 @@ Access the address on your browser:
 
 <http://localhost:8000/api/>
 
+<http://localhost:8000/swagger/>
+
+<http://localhost:8000/redoc/>
+
 ## Running the tests
 
 How to run the tests:
@@ -157,6 +161,11 @@ Access the address on your browser:
 <http://localhost:8000>
 
 <http://localhost:8000/api/>
+
+<http://localhost:8000/swagger/>
+
+<http://localhost:8000/redoc/>
+
 
 Closing:
 
