@@ -134,6 +134,12 @@ Access the address on your browser:
 
 <http://localhost:8000/redoc/>
 
+## Uploading a file
+
+Upload a file require to inform it as a Multipart form and identify the folder by pk/id in url.
+
+![image info](./resources/upload.png)
+
 ## Running the tests
 
 How to run the tests:
